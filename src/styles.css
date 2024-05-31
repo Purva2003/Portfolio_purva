@@ -47,8 +47,8 @@ section img.background {
 
 h1 {
   font-family: "Cormorant Garamond", serif;
-  font-size: 7rem;
-  font-weight: 400;
+  font-size: 9rem;
+  font-weight: 2000;
   line-height: 0.8;
   margin: 0;
 }
@@ -123,3 +123,4 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+

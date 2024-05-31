@@ -18,6 +18,7 @@ import linkedInIcon from "../images/socials/linkedin.svg";
 import mediumIcon from "../images/socials/medium.svg";
 import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
+import { getMaxListeners } from "process";
 
 /**
  * 💡 Learning resources
@@ -86,7 +87,7 @@ const Footer = (props) => {
         )}
         {linkedIn && (
           <a
-            href={`https://www.linkedin.com/in/${linkedIn}`}
+            href={`https://www.linkedin.com/in/purvasinghgrover`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -126,10 +127,10 @@ Footer.defaultProps = {
 
 Footer.propTypes = {
   devDotTo: PropTypes.string,
-  email: PropTypes.string,
-  gitHub: PropTypes.string,
-  instagram: PropTypes.string,
-  linkedIn: PropTypes.string,
+  email: "purvagrover3@gmail.com",
+  gitHub: "Purva2003",
+  instagram: "purvaaa_03",
+  linkedIn: "purvasinghgrover",
   medium: PropTypes.string,
   name: PropTypes.string.isRequired,
   primaryColor: PropTypes.string,
